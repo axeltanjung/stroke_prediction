@@ -13,27 +13,51 @@ Report ini berisi analisis terhadap hubungan antara faktor faktor yang dapat mem
 ## Dataset & Features
 
 a.	id: unique identifier
+
 b.	gender: "Male", "Female" atau "Other"
+
 c.	age: Umur dari pasien
+
 d.	hypertension: 
+
 “No” jika pasien tidak menderita hipertensi 
+
 Normal dengan tekanan darah sistolik < 120 mmHg dan diastolic < 80 mmHg
+
 Pre-hipertensi dengan tekanan darah sistolik 120-139 dan diastolic 80-89)
+
 “Yes” jika pasien menderita hipertensi
+
 Hipertensi derajat 1 dengan tekanan darah sistolik 140-159 mmHg dan diastolic 90-99 mmHg
+
 Hipertensi derajat 2 dengan tekanan darah sistolik >160 mmHg dan diastolic >100 mmHg
+
 e.	heart_disease: “No” jika pasien tidak pernah menderita penyakit jantung, “Yes” jika pasien pernah menderita penyakit jantung
+
 f.	ever_married: "No" atau "Yes"
+
 g.	work_type: "children", "Govt_jov", "Never_worked", "Private" atau "Self-employed"
+
 h.	Residence_type: "Rural" atau "Urban"
+
 i.	avg_glucose_level: rata-rata glukosa dalam darah (mg/dL)
+
 j.	bmi: body mass index
+
 Underweight
+
 Batas Normal
+
 Overweight
+
 Pre-obese
+
 Obese I
+
 Obese II
+
 k.	smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
+
 l.	stroke: 1 if the patient had a stroke or 0 if not
+
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
